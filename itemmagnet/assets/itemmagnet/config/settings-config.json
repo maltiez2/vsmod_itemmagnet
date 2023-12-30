@@ -1,0 +1,39 @@
+{
+  "PICKUP_RADIUS": {
+    "name": "pickup-radius",
+    "comment": "Magnet items pickup radius",
+    "default": 8.0,
+    "validation": {
+      "min": 1.0,
+      "max": 32.0
+    }
+  },
+  "PICKUP_SPEED": {
+    "name": "pickup-speed",
+    "comment": "Pickup speed bonus",
+    "default": 1.0,
+    "validation": {
+      "min": 0.0,
+      "max": 10.0
+    }
+  },
+  "MAGNET_INGREDIENTS": {
+    "name": "item-magnet-recipe",
+    "comment": "Recipe difficulty",
+    "default": "Default",
+    "validation": {
+      "mapping": {
+        "Default": {
+          "G": {"type": "item", "code": "game:gear-temporal", "quantity": 1},
+          "H": {"type": "item", "code": "game:hoop-gold", "quantity": 1},
+          "M": {"type": "block", "code": "game:metal-parts", "quantity": 1}
+        },
+        "Simplified": {
+          "G": {"type": "item", "code": "game:gear-temporal", "quantity": 1},
+          "H": {"type": "item", "code": "game:hoop-*", "quantity": 1},
+          "M": {"type": "item", "code": "game:metalnailsandstrips-*", "quantity": 1}
+        }
+      }
+    }
+  }
+}

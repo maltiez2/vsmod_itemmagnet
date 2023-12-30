@@ -1,0 +1,9 @@
+[
+  {
+    "ingredientPattern": "H,M,G",
+    "ingredients": ["MAGNET_INGREDIENTS"],
+    "width": 1,
+    "height": 3,
+    "output": {"type": "item", "code": "itemmagnet:clothes-neck-itemmagnet"}
+  }
+]

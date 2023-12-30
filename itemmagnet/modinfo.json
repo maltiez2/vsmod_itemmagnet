@@ -1,0 +1,14 @@
+{
+    "type": "code",
+    "modid": "itemmagnet",
+    "name": "Item Magnet",
+    "authors": [
+        "malties"
+    ],
+    "description": "Item that greatly increases pickup radius",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": "1.19.0-rc.1",
+        "configlib": "0.2.5"
+    }
+}
