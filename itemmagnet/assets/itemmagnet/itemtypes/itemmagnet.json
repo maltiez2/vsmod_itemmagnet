@@ -18,8 +18,8 @@
 		"*-itemmagnet": {
 			"displaycaseable": true, "onDisplayTransform": { "translation": { "x": -0.6, "y": -1.2, "z": 0 }, "rotation": { "x": 0, "y": 0, "z": -41 } },
 			"otherStatModifiers": {
-				"pickupradius": ["PICKUP_RADIUS"],
-				"pickupspeed": ["PICKUP_SPEED"]
+				"pickupradius": 8.0,
+				"pickupspeed": 1.0
 			}
 		}
 	},

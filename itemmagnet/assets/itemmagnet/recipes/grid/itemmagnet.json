@@ -1,7 +1,11 @@
 [
   {
     "ingredientPattern": "H,M,G",
-    "ingredients": ["MAGNET_INGREDIENTS"],
+    "ingredients": {
+      "G": {"type": "item", "code": "game:gear-temporal", "quantity": 1},
+      "H": {"type": "item", "code": "game:hoop-gold", "quantity": 1},
+      "M": {"type": "block", "code": "game:metal-parts", "quantity": 1}
+    },
     "width": 1,
     "height": 3,
     "output": {"type": "item", "code": "itemmagnet:clothes-neck-itemmagnet"}

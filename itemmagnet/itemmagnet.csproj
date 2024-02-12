@@ -51,7 +51,7 @@
   <Content Include="assets\**">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
   </Content>
-  <None Remove="assets\itemmagnet\config\settings-config.json" />
+  <None Remove="assets\itemmagnet\config\configlib-patches.json" />
   <None Remove="assets\itemmagnet\itemtypes\itemmagnet.json" />
   <None Remove="assets\itemmagnet\recipes\grid\itemmagnet.json" />
   <Content Include="modinfo.json">

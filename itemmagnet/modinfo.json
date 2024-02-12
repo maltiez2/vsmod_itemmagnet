@@ -6,9 +6,9 @@
         "malties"
     ],
     "description": "Item that greatly increases pickup radius",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "dependencies": {
-        "game": "1.19.0-rc.1",
-        "configlib": "0.2.5"
+        "game": "1.19.3",
+        "configlib": "0.4.0"
     }
 }

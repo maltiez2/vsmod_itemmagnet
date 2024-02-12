@@ -12,6 +12,7 @@ using Vintagestory.API.Config;
 using Vintagestory.API.Datastructures;
 using Vintagestory.API.MathTools;
 using Vintagestory.API.Server;
+using Vintagestory.Common;
 using Vintagestory.GameContent;
 
 #pragma warning disable S3011 // Reflection should not be used to increase accessibility of classes, methods, or fields
@@ -70,7 +71,7 @@ public class ItemMagnetModSystem : ModSystem
     {
         if (mClientNetworkChannel != null)
         {
-                        mClientNetworkChannel.SendPacket(new ItemMagnetTogglePacket());
+            mClientNetworkChannel.SendPacket(new ItemMagnetTogglePacket());
         }
 
         return true;
