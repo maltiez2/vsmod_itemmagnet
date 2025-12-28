@@ -1,14 +1,20 @@
 {
-  "version": 1,
+  "version": 2,
   "patches": {
     "number": {
-      "itemmagnet:itemtypes/itemmagnet.json": {
-        "attributesByType/*-itemmagnet/otherStatModifiers/pickupradius": "PICKUP_RADIUS",
-        "attributesByType/*-itemmagnet/otherStatModifiers/pickupspeed": "PICKUP_SPEED"
+      "itemmagnet:itemtypes/itemmagnet-neck.json": {
+        "attributes/otherStatModifiers/pickupradius": "PICKUP_RADIUS",
+        "attributes/otherStatModifiers/pickupspeed": "PICKUP_SPEED"
+      },
+      "itemmagnet:itemtypes/itemmagnet-emblem.json": {
+        "attributes/otherStatModifiers/pickupradius": "PICKUP_RADIUS",
+        "attributes/otherStatModifiers/pickupspeed": "PICKUP_SPEED"
       }
     },
     "other": {
-      "itemmagnet:recipes/grid/itemmagnet.json": "MAGNET_INGREDIENTS"
+      "itemmagnet:recipes/grid/itemmagnet.json": {
+        "0/ingredients": "MAGNET_INGREDIENTS"
+      }
     }
   },
   "settings": {

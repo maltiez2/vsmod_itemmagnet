@@ -1,0 +1,25 @@
+﻿{
+  "code": "clothes",
+  "class": "ItemMagnet:ItemMagnet",
+  "variantgroups": [{ "code": "category", "states": ["emblem"] }, { "code": "emblem", "combine": "SelectiveMultiply", "onVariant": "category", "states": ["itemmagnet"] }],
+  "shape": { "base": "game:entity/humanoid/seraph/clothing/emblem/brass-ruby-brooch" },
+  "storageFlags": 128,
+  "attributes": {
+    "clothescategory": "emblem",
+    "wearableAttachment": true,
+    "warmth": 0,
+    "displaycaseable": true,
+    "onDisplayTransform": { "translation": { "x": "-0.6", "y": "-1.2", "z": 0 }, "rotation": { "x": 0, "y": 0, "z": -41 } },
+    "otherStatModifiers": { "pickupradius": "8.0", "pickupspeed": "1.0" }
+  },
+  "textures": {
+    "seraph": { "base": "game:block/transparent" },
+    "emblems1": { "base": "game:entity/humanoid/seraphclothes/neck/metal/gold" },
+    "fire-red": { "base": "game:entity/humanoid/seraphclothes/neck/gem/turquoise" }
+  },
+  "creativeinventory": { "general": ["*"], "items": ["*"], "clothing": ["*"] },
+  "renderAlphaTest": "0.25",
+  "tpHandTransform": { "translation": { "x": "0.13", "y": "-0.6", "z": "-0.5" }, "rotation": { "x": 0, "y": 0, "z": -90 }, "scale": 1 },
+  "guiTransform": { "rotate": false, "translation": { "x": 0, "y": 0, "z": 0 }, "rotation": { "x": -1, "y": -90, "z": 0 }, "origin": { "x": "0.18", "y": "1.31", "z": "0.53" }, "scale": "4.04" },
+  "groundTransform": { "translation": { "x": "0.05", "y": "-0.12", "z": 0 }, "rotation": { "x": 0, "y": 0, "z": -90 }, "origin": { "x": "0.5", "y": "0.5", "z": "0.5299" }, "scale": 5 }
+}
